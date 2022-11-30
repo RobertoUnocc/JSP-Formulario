@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ejemplo-jakarta:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ejemplo-jakarta</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="appprueba.war">
+      <element id="artifact" artifact-name="ejemplo-jakarta:war exploded" />
+    </root>
+  </artifact>
+</component>
